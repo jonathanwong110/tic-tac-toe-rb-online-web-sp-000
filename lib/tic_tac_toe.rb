@@ -47,7 +47,7 @@ def turn(board)
    user_input = gets.strip
    index = input_to_index(user_input)
    if valid_move?(board, index)
-    move(board, index, character = "X", character = "O")
+    move(board, index, character = "XO")
   else
     puts "try again"
     turn(board)
