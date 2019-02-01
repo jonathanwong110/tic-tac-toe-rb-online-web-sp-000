@@ -65,7 +65,6 @@ def play(board)
    else draw?(board)
       puts "Cat's Game!"
    end
-   play(board)
 end
 
 def turn_count(turn)
